@@ -1,0 +1,10 @@
+{
+    "vendor": "htoo",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "main": "index.html",
+    "id": "com.t1t1.app",
+    "title": "moonston_mb-2.6",
+    "type": "web",
+    "version": "0.0.1"
+}

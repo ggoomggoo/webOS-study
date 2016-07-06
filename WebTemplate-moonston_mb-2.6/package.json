@@ -1,0 +1,8 @@
+{
+  "name": "enyo-v",
+  "assets": ["assets/*.png", "assets/*.ico"],
+  "devAssets": [],
+  "styles": [],
+  "main": "index.js",
+  "moduleDir": "src"
+}

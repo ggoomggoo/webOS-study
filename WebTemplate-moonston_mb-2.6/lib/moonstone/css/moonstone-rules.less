@@ -1,0 +1,93 @@
+// Moonstone mixins defined here
+@import "moonstone-mixins.less";
+
+html {
+	font-size: 24px;
+	font-size: 24apx;
+}
+
+/* 720p screen size */
+@media only screen and (max-width: 1280px) {
+	html {
+		font-size: 16px;
+		font-size: 16apx;
+	}
+}
+@media only screen and (min-width: 2561px) {
+	html {
+		font-size: 48px;
+		font-size: 48apx;
+	}
+}
+
+/* Prevent browser's default focus treatment (at least in Chrome) */
+:focus {
+	outline: none;
+}
+
+/* Common classes applicable to multiple controls */
+.moon {
+	font-family: @moon-font-family;
+	font-size: @moon-sub-header-font-size;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	padding: @moon-app-keepout;
+	color: @moon-text-color;
+	background-color: @moon-background-color;
+}
+
+.enyo-locale-right-to-left .moon {
+	direction: rtl;
+}
+
+.moon-divider-border {
+	border-bottom: @moon-divider-border-width solid @moon-divider-border-color;
+}
+.moon-neutral-divider-border {
+	border-bottom: @moon-divider-border-width solid @moon-neutral-border-color;
+}
+
+.moon-composite {
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	will-change: transform;
+}
+
+.border-box {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.matrix3dsurface {
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    pointer-events: auto;
+    -webkit-user-select: none;
+}
+
+// LESS pre-calculations
+@moon-disabled-opacity-ie: @moon-disabled-opacity*100;
+
+/* Put this at the end because we want these to take precedence over others */
+.moon-neutral {
+	background-color: @moon-neutral-bg-color;
+	color: @moon-neutral-text-color;
+}
+.moon-neutral * {
+	color: @moon-neutral-child-text-color;
+}
+.moon-light-gray {
+	background-color: @moon-light-gray;
+	color: @moon-dark-gray;
+}
+.moon-light-gray * {
+	color: @moon-dark-gray;
+}
