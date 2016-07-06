@@ -1,0 +1,18 @@
+body {
+	background-color: lightgray;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-size: 25px;
+}
+
+a {
+	appearance: button;
+	-moz-appearance: button;
+	-webkit-appearance: button;
+	text-decoration: none;
+	font: menu;
+	color: ButtonText;
+	display: inline-block;
+	padding: 2px 8px;
+	font-size: 25px;
+}

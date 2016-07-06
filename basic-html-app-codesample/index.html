@@ -1,45 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-body {
-		width: 100%;
-		height: 100%;
-		background-color: #202020;
-}
-
-div {
-	    position:absolute;
-		height:100%;
-		width:100%;
-		display: table;
-}
-
-h1 {
-	    display: table-cell;
-		vertical-align: middle;
-		text-align:center;
-		color: #FFFFFF;
-}
-</style>
-	<script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
-	<script type="text/javascript">
-	   //sample code for calling LS2 API
-       var lunaReq= webOS.service.request("luna://com.palm.systemservice",
-        {
-            method:"clock/getTime",
-            parameters:{},
-            onSuccess: function (args) {
-				console.log("UTC:", args.utc);
-            },
-            onFailure: function (args) {
-            }
-        });
-	</script>
+	<link href="css/app.css" rel="stylesheet"/>
 </head>
 <body>
-	<div>
-		<h1>Hello World!</h1>
-	</div>
+<h1>
+	Greetings Brave Adventurer!
+</h1>
+
+<img src="assets/fairy-tale_house.png">
+<p>Your town is under attack by a fearsome dragon. The king's army is several
+days away and your town will be no more if you cannot stop the dragon.</p>
+
+<h2>You may:</h2>
+
+<a href="end.html">Do nothing and hope the dragon goes away</a><br>
+<a href="journey.html">Set out towards the mountain where the dragon lives</a>
 </body>
 </html>

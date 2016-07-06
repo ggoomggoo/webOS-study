@@ -1,10 +1,16 @@
 {
-  "id": "com.yourdomain.app",
-  "version": "0.0.1",
-  "vendor": "My Company",
-  "type": "web",
-  "main": "index.html",
-  "title": "application",
-  "icon": "icon.png",
-  "largeIcon": "largeIcon.png"
+	"id": "com.lgdev.hello-world",
+	"version": "2.0.0",
+	"uiRevision": 2,
+	"vendor": "LG Developer",
+	"type": "web",
+	"main": "index.html",
+	"title": "Hello World",
+	"appDescription": "Hello World",
+	"icon": "icon.png",
+	"largeIcon": "largeIcon.png",
+	"iconColor": "blue",
+	"bgColor": "white",
+	"splashBackground": "app_bg_1920x1080.png",
+	"bgImage": "app_bg2_1920x1080.png"
 }
