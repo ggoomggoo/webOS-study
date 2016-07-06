@@ -1,45 +1,30 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<style type="text/css">
-body {
-		width: 100%;
-		height: 100%;
-		background-color: #202020;
-}
 
-div {
-	    position:absolute;
-		height:100%;
-		width:100%;
-		display: table;
-}
+	<title>Notification Sample (TED)</title>
 
-h1 {
-	    display: table-cell;
-		vertical-align: middle;
-		text-align:center;
-		color: #FFFFFF;
-}
-</style>
-	<script src="webOSjs-0.1.0/webOS.js" charset="utf-8"></script>
-	<script type="text/javascript">
-	   //sample code for calling LS2 API
-       var lunaReq= webOS.service.request("luna://com.palm.systemservice",
-        {
-            method:"clock/getTime",
-            parameters:{},
-            onSuccess: function (args) {
-				console.log("UTC:", args.utc);
-            },
-            onFailure: function (args) {
-            }
-        });
+	<meta http-equiv="Content-type" content="text/html" charset="utf-8">
+	<link rel="stylesheet" href="style.css" />
+
+	<script src="http://www.google.com/jsapi"></script>
+	<script>
+	 google.load( "webfont", "1" );
+	 google.setOnLoadCallback(function() {
+	  WebFont.load({ custom: {
+	   families: [ "NanumGothic" ],
+	   urls: [ "http://fontface.kr/NanumGothic/css" ]
+	  }});
+	 });
 	</script>
+
+	<script src="javascript.js"></script>
+
 </head>
 <body>
-	<div>
-		<h1>Hello World!</h1>
-	</div>
+
+	<h1>Notification Sample</h1>
+	<button id="button">Web Notification Now? </button>
+
 </body>
 </html>

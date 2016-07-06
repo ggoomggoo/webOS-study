@@ -1,0 +1,83 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #5d5c5c;
+	font-size: 62.5%;
+	font-family: 'NanumGothic';
+	background-image:url('Images/beanbird.jpg');
+	background-repeat: no-repeat; 
+	background-size:100%;
+}
+
+h1 {
+	color: #C3CDD5;
+	font-size: 30pt;
+	font-weight: bold;
+	font-family: 'NanumGothic';
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.notification {
+	background: #FFF;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	border: 1px solid #4B95B3;
+	width: 400px;
+	position: fixed;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+	top: -300px;
+	right: 15px;
+	cursor: pointer;
+}
+
+.notification h2 {
+	background: #EEE;
+	margin: 0;
+	padding: 18px;
+	/*text-transform: uppercase;*/
+	/*color: #757575;*/
+	color: #d80546;
+	border-radius: 5px 5px 0 0;
+}
+
+.notification div {
+	font-size: 12px;
+	padding: 18px;
+}
+
+[data-fade] {
+	opacity: 0;
+}
+
+.notification .close {
+	font-family: 'SSStandard', sans-serif;
+	position: absolute;
+	top: 20px;
+	padding: 0;
+	right: 20px;
+}
+
+button {
+
+	margin-right: 25px;
+	font-size: 20pt;
+	font-family: 'NanumGothic';
+	border-radius: 6px;
+	background: #d80546;
+	cursor: pointer;
+	padding: 14px;
+	border: none;
+	color: #C3CDD5;
+	font-weight: bold;
+	text-align: center;
+	position:absolute;
+	top: 43%;
+    left: 41%;
+
+}
+
+button:hover {
+	color: #FFF;
+}
