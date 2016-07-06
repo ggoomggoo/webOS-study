@@ -1,10 +1,11 @@
 {
-  "id": "com.yourdomain.app",
-  "version": "0.0.1",
-  "vendor": "My Company",
-  "type": "web",
-  "main": "index.html",
-  "title": "Navigation_and_Sound_Sample",
-  "icon": "icon.png",
-  "largeIcon": "largeIcon.png"
+	"id": "com.sample.app.navigation",
+	"version": "1.1.0",
+	"uiRevision": 2,
+	"vendor": "LGE",
+	"type": "web",
+	"main": "index.html",
+	"title": "Navigation & Sound Sample",
+	"icon": "icon.png",
+	"largeIcon": "largeIcon.png"
 }

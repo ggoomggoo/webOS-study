@@ -1,0 +1,106 @@
+.container {
+	position: absolute;
+	top: 270px;
+	left: 320px;
+	border-color: orange;
+	border-style:solid;
+	border-width: 2px;
+	height: 540px;
+	width: 1280px;
+}
+
+.dog_image {
+	position: absolute;
+	top: 70px;
+	left: 16px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_dog_idle.jpg") no-repeat 0 0; 
+}
+
+.dog_image_active {
+	position: absolute;
+	top: 70px;
+	left: 16px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_dog_active.jpg") no-repeat 0 0; 
+}
+
+.cat_image {
+	position: absolute;
+	top: 70px;
+	left: 332px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_cat_idle.jpg") no-repeat 0 0;
+}
+
+.cat_image_active {
+	position: absolute;
+	top: 70px;
+	left: 332px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_cat_active.jpg") no-repeat 0 0; 
+}
+
+.duck_image {
+	position: absolute;
+	top: 70px;
+	left: 646px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_duck_idle.jpg") no-repeat 0 0;
+}
+
+.duck_image_active {
+	position: absolute;
+	top: 70px;
+	left: 646px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_duck_active.jpg") no-repeat 0 0; 
+}
+
+.tiger_image {
+	position: absolute;
+	top: 70px;
+	left: 962px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_tiger_idle.jpg") no-repeat 0 0;
+}
+
+.tiger_image_active {
+	position: absolute;
+	top: 70px;
+	left: 962px;
+	border-color: silver;
+	border-style:solid;
+	border-width: 5px;
+	height: 400px;
+	width: 300px;
+	background: url("../images/btn_tiger_active.jpg") no-repeat 0 0; 
+}
